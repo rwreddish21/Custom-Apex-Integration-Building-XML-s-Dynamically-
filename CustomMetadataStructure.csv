@@ -1,0 +1,4 @@
+﻿Custom Metadata Type Structure,,,,,,
+Field:,XML Full Name,XML Object,Salesforce Field,Salesforce Object,Node Order,Hardcoded Flag
+Description:,XML line. Related Salesforce field API name is contained within the tags. NOTE: Salesforce field should be in all lowercase.,Contains the Element that the line is stored in.,Related Salesforce field API Name (all lowercase). Used for matching purposes.,Source object of Salesforce field,The order in which the line should be built. (Double),"Uses the XML Full Name in the final XML, instead of replacing with a value from Salesforce."
+Example:,<ACCOUNT>accountid</ACCOUNT>,ACCOUNT_DETAILS,accountid,Account,1,FALSE
