@@ -1,4 +1,4 @@
-/* Author: Ryan Reddish - Capgemini
+/* Author: Ryan Reddish
 * Date: 12/1/21
 * Description: For use with outbound integrations that require data translations in Salesforce instead of middleware.
 *
