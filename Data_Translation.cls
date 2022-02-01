@@ -79,6 +79,7 @@ public static void TranslateData (List <Id> newId, Map<Double, String> finalXMLM
         xmlString = xmlString + s;
     }
     
+    //Pass the finalXML string, and the interface to the Callout class.
     String interfaceDetail = 'InterfaceID';
     Outbound_Integration_Callout.HttpMethod(xmlString, interfaceDetail);
     
