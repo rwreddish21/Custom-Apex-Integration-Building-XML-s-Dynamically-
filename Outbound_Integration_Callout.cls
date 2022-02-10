@@ -1,13 +1,9 @@
-/* Author: Ryan Reddish - Capgemini
+/* Author: Ryan Reddish
  * Date: 1/23/2022
- * Purpose: Use this class to store all HttpCallouts for SFS Outbound Intgrations.
  */
 
 public class Outbound_Integration_Callout {
-    /*	All integrations will use this method. They will pass a identifier 'interfaceDetail'. 
-     * 	Query uses interfaceDetail to identify the endpoint that needs to be called.
-     */ 
-    
+
     @future(Callout = true)
     public static void HttpMethod(String xmlString, String interfaceDetail){
         //Http Method to send xml and recieve success or failure code.
